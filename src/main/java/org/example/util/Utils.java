@@ -1,15 +1,12 @@
 package org.example.util;
 
-import org.example.model.Person;
-import org.example.model.Role;
 import org.example.repository.PersonRepository;
 
-import java.util.Optional;
 import java.util.function.IntConsumer;
 
-import static org.example.exception.CinemaExceptionMessage.*;
+import static org.example.exception.CinemaExceptionMessage.ERROR_ENTER_MAX_ATTEMPTS_MESSAGE;
 import static org.example.util.constant.ColorsConstant.*;
-import static org.example.util.constant.ConsoleMenuConstant.*;
+import static org.example.util.constant.ConsoleMenuConstant.FINISHING_MESSAGE;
 
 public final class Utils {
     public static final int ITERATION_LOOP = 5;
